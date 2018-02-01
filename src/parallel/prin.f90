@@ -80,7 +80,7 @@ write(tmp1,"(i4)") nfile
 nfile = nfile + 1
 
 if (ndim==2) then
- filename = 'output/' // trim(prefix) // tmp1 // '.nc'
+ filename = 'output/' // trim(prefix) // '_' // tmp1 // '.nc'
 else
  write(tmp2,"(i4)") mypez
  do i = 1, 4

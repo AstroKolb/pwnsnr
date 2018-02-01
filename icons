@@ -1,5 +1,5 @@
 &icons				!
-  prefix  = 'test_'		!                             input units     converted to
+  prefix  = 'test'		!                             input units     converted to
   profile = 'x060b'
   nssdw   = 6           ! profile index
   Esn     = 1.0			    ! explosion energy 		(E51)		[erg]

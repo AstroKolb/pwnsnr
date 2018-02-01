@@ -17,7 +17,7 @@ IMPLICIT NONE
 
 
 ! version
-CHARACTER(6), PARAMETER :: version = '062317'
+CHARACTER(6), PARAMETER :: version = '020118'
 
 ! counters
 INTEGER :: i, j, k, mpierr
@@ -139,7 +139,7 @@ r_plateau = vt * age
 ! read in 1D data for SSDW; scaling to above parameters
 ! input data is scaled to a radius of 1.0, age of 0.5, ambient density of 1.0
 
-open(27,file=trim(profile))
+open(27,file='src/assets/' // trim(profile))
  do n = 1, 2048 
   read(27,*) rss(n), dss(n), pss(n), uss(n)
  enddo
@@ -173,7 +173,7 @@ write(*,*) assdw, dss(1), uss(1), dss(1)*uss(1)**nssdw
 ! read in 1D data for PWN inside expanding homogeneous ejecta
 ! default vel1e3.dat .. various other PWN ICs available in /initpack
 
-open(27,file='pwn00.dat')
+open(27,file='src/assets/pwn00.dat')
 do n = 1, 400
  read(27,*) rpwn(n), dpwn(n), ppwn(n), upwn(n), gpwn(n)
 enddo
