@@ -1,0 +1,17 @@
+&icons				!
+  prefix  = 'test_'		!                             input units     converted to
+  profile = 'x060b'
+  nssdw   = 6           ! profile index
+  Esn     = 1.0			    ! explosion energy 		(E51)		[erg]
+  Mej     = 4.0			    ! SN ejecta mass   		(SM)		[g]
+  d0      = 1.00 		    ! average ambient density 	(1e-24g/cm**3)	[g/cm**3]
+  age     = 50.			    ! starting age of PWNSNR system	(yrs)		[s]
+  Lpsr0   = 2.8			    ! initial PWN luminosity 	(1e38erg/s)	[erg/s]
+  v_psr   = 400.0 	    ! pulsar velocity 		(km/s)		[cm/s]
+  pbi     = 3.0			    ! pulsar braking index
+  psrLT   = 2000.		    ! pulsar lifetime 		(yrs)		[s]
+  x_amb   = 1.05 		    ! gradient scale factor
+  H_amb   = 10.0 		    ! gardient width factor 	(1e18cm)	[cm]
+  z_amb   = 0.0			    ! gradient shift		(1e18cm)	[cm]
+  psi_amb = 5.8  		    ! gradient rotation angle 	(pi/4 rads)	[rads]
+  seed    = 183873 /		! randomization seed		

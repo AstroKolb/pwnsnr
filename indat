@@ -1,0 +1,11 @@
+&hinput
+ rstrt   = 'no'
+ format  = 'netcdf'	! try 'netcdf' or 'ensight' or 'all'
+ ncycend = 20000000
+ ndump   = 10000000
+ nprin   = 20000000
+ nmovie  = 10000000
+ endtime = 6.30e11
+ tdump   = 3.15e11
+ tprin   = 3.15e09
+ tmovie  = 5.0e+100 /
